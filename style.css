@@ -1,0 +1,74 @@
+/*
+Theme Name: My First Theme
+Author: Brooke Grover
+Date: 02/25/2022 - 2:33pm
+Description: This is my first wordpress theme.
+Version: 1.0
+*/
+
+body {
+    margin:auto;
+    color: black;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    text-decoration: none;
+}
+
+.col-3 li {
+    padding-top: 15px;
+}
+
+#menubottom {
+    background-color: darkgrey;
+}
+
+#sections {
+    padding:30px
+}
+
+#space {
+    padding: 40px;
+}
+
+#category, #local {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menutop {
+    padding: 20px;
+}
+
+img {
+    width: 500px;
+}
+
+#footer {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#news {
+    font-weight: bold;
+}
